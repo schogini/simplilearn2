@@ -11,13 +11,14 @@ pipeline {
                 	sh "mvn test"          	 
             	      }     	 
         	}	 
-    	}
+    	
     	stage("Extra test") {          	 
         	steps {               	 
                 	echo "Extra test"          	 
             	}     	 
-        	}	 
+        		 
     	}
+	}
 }
 
 
