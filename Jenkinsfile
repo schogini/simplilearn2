@@ -11,7 +11,11 @@ pipeline {
                 	sh "mvn test"          	 
             	      }     	 
         	}	 
-    	
+      	stage("Function test by Rakesh") {          	 
+        	steps {               	 
+                	echo "Rakesh testing"          	 
+            	      }     	 
+        	}  	
     	stage("Extra test") {          	 
         	steps {               	 
                 	echo "Extra test"          	 
